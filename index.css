@@ -1,4 +1,4 @@
-/* Add this at the very top of style.css */
+
 body {
   opacity: 0;
   animation: fadeIn 0.8s ease-in forwards;
