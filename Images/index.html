@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Euticus Kong'o | Web Designer</title>
+    <!--fonts used-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- custom CSS file -->
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Small inline styles for critical elements */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+        }
+        </style>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <li>
+            <ol><a href="#about">About</a></ol>
+            <ol><a href="#skills">Skills</a></ol>
+            <ol><a href="#education">Education</a></ol>
+            <ol><a href="#interests">Interests</a></ol>
+            <ol><a href="#projects">Projects</a></ol>
+            <ol><a href="#contact">Contact</a></ol>
+            </li>
+        </nav>
+    </header>
+<!--Hero section-->
+    <section class="hero">
+        <div style="text-align: center;">
+            <img src="yuti image.jpg" alt="Profile Picture" width="250">
+  <p>Profile Picture</p>
+</div>
+
+        <h2> Euticus Kong'o </h2>
+        <p>A passionate web developer building amazing digital experiences.</p>
+    </section>
+
+    <!--About section-->
+    <section id="about">
+        <h2>About</h2>
+        <p>
+            I'm a passionate Software Engineer with a strong love for solving real-world problems through clean and efficient code.</p>
+           <p> My journey in tech began with a curiosity for how things work, how websites run and that curiosity turned into a passion for building meaningful solutions. Power Learn Project actualized this dream through a scholarship.</p>
+           <p> Whether it's developing websites, automating tasks or diving into new technologies, I am driven by a desire to create impact and keep learning every day.</p>
+            <p>I love solving problems and creating impactful solutions. Passionate about 
+            open-source and tech communities. I believe in continuous improvement, teamwork and writing code that not only works but elegant and easy to maintain</p>
+
+        
+    </section>
+
+    <!--Skills section-->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+    <i class="fab fa-python"></i> <!-- Python icon -->
+    <p>Python</p>
+</div>
+<div class="skill">
+    <i class="fab fa-js-square"></i> <!-- JavaScript icon -->
+    <p>JavaScript</p>
+</div>
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+            <i class="fas fa-flask"></i>
+            <p>Scientist</p>
+        </div>
+        <div class="skill">
+            <i class="fas fa-paint-brush"></i>
+            <p>Graphic Designer</p>
+        </div>
+        <div class="skill">
+            <i class="fas fa-robot"></i>
+            <p>Artificial Intelligence</p>
+        </div>
+        </div>
+    </section>
+
+    <!--Education section-->
+    <section id="education">
+        <h2>Education</h2>
+        <p>Bachelor's of Science in Medical Laboratory Science and Technology<br> University of Nairobi</p>
+        <p>Kenya Certificate of Secondary Education<br> Emusire High School</p>
+        <a href="RESUME CV.pdf" download="RESUME CV.pdf">
+             Download my CV
+        </a>
+    </section>
+
+    <!--Interests section-->
+    <section id="interests">
+    <h2>My Professional Interests</h2>
+    <p class="interest-statement">
+        What excites me most about technology is its capacity to transform ideas into solutions. 
+        I will specialize in intelligent systems and cross-platform mobile development.
+    </p>
+    
+    <div class="interests-container">
+        <div class="interest">
+            <i class="fas fa-brain"></i>
+            <h3>AI & Machine Learning</h3>
+            <p>Building intelligent adaptive systems that solve real-world problems through algorithms and data-driven approaches.</p>
+        </div>
+        <div class="interest">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Mobile with Dart</h3>
+            <p>Creating high-performance, cross-platform mobile applications using Flutter and Dart for seamless user experiences.</p>
+        </div>
+    </div>
+</section>
+
+<!--Projects section-->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Fun Calculator</h3>
+            <p>A fun calculator that allows entry of two numbers through which addition, subtraction, multiplication and division can be easily executed. Created easily using VS code</p> <!-- EDIT DESCRIPTION -->
+            <a href="https://github.com/yuti136/SEE" target="_blank">
+                <i class="fab fa-github"></i> View on GitHub
+            </a>
+        </div>
+
+    </section>
+
+    <!--Contact Form-->
+<section id="contact">
+  <h2>Get in Touch</h2>
+  <h3>For more information, feel free to get in touch below</h3>
+
+  <form action="https://formspree.io/f/xdkdgvvj" method="POST">
+    <fieldset>
+      <legend>Contact Form</legend>
+
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+      <label for="phone">Phone number (Optional):</label>
+      <input type="tel" id="phone" name="phone" placeholder="+254712345678">
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" placeholder="Write your message (maximum 50 words)" required></textarea>
+      <button type="submit"> Submit </button>
+    </fieldset>
+  </form>
+</section>
+
+<!--Footer-->
+    <footer>
+    <p>&copy; 2025 Euticus Kong'o. All rights reserved.</p>
+  </footer>
+</body>
+</html>
